@@ -35,47 +35,76 @@
     filter: brightness(100%);
 }
 
-.comic__item  .cloud1 {
+.comic__item .cloud1 {
     position: absolute;
     width: 230px;
     top: -40px;
     right: -5%;
+    transition: 0.4s all ease-in-out
+    
 }
-
+.comic__item .cloud1:hover,
+.comic__item .cloud1:focus{
+    transform: rotate(30deg);
+ 
+}
 
 .comic__item .cloud2 {
     position: absolute;
     width: 300px;
     right: 5%;
     top: -20px;
+    transition: 0.4s all ease-in-out
 }
-
+.comic__item .cloud2:hover,
+.comic__item .cloud2:focus{
+    transform: rotate(30deg);
+ 
+}
 .comic__item .cloud3 {
     position: absolute;
     width: 230px;
     right: 0%;
     top: -30px;
+    transition: 0.4s all ease-in-out
 }
 
+.comic__item .cloud3:hover,
+.comic__item .cloud3:focus{
+    transform: rotate(25deg);
+ 
+}
 .comic__item .cloud4 {
     position: absolute;
     width: 300px;
     right: 45%;
     top: -30px;
+  
 }
+
 
 .comic__item .cloud5 {
     position: absolute;
     width: 300px;
     right: 10%;
     bottom: -50px;
+    
 }
+
+ 
 
 .comic__item .cloud6 {
     position: absolute;
     width: 300px;
     right: 20%;
     bottom: -100px;
+    transition: transform 1s ease-in;
+}
+.comic__item .cloud6:hover,
+.comic__item .cloud6:focus {
+   
+    transform: scale(2);
+    transition: transform 1s ease-in;
 }
 
 
